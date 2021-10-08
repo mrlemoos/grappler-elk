@@ -1,0 +1,9 @@
+---
+# https://github.com/elastic/elasticsearch/blob/master/distribution/docker/src/docker/config/elasticsearch.yml
+
+cluster.name: "docker-cluster" # trocar o nome disso aqui depois
+network.host: 0.0.0.0
+
+xpack.license.self_generated.type: trial
+xpack.security.enabled: true
+xpack.monitoring.collection.enabled: true

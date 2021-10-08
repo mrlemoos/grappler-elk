@@ -1,0 +1,14 @@
+{
+  "name": "@sbsistemas/grappler-elk",
+  "version": "0.0.1",
+  "description": "Cria sistema de ELK Stack para a network da SB",
+  "main": "init.sh",
+  "author": "Leonardo Lemos <leonardo@sbsistemas.com.br>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.2"
+  }
+}
